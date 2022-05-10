@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    color: white;
+    padding: 0 20px;
+    font-family: "Monrope", sans-serif;
+    font-size: 18px;
+}
+
+#hero {
+    background: #000000;
+    padding-top: 200px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #DEDEDE;
+    margin-bottom: 30px;
+}
+
+.hero-desc {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #959595;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    width: 400px;
+    height: 64px;
+    background: #9D9D9D;
+    color: #DEDEDE;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    margin-bottom: 30px;
+}
+
+.hero-btn i {
+    color: black;
+}
+
+.hero-btn:hover {
+    transform: scale(1.1);
+}
+
+.hero-general {
+    width: 630px;
+}
+
+.hero-btn2 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    background: #000;
+    color: #DEDEDE;
+    opacity: 0.7;
+    margin-top: 200px;
+}
+
+#lego {
+    background: #000;
+}
+
+.lego {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lego-img {
+    margin-bottom: 20px;
+}
+
+.lego-img2 {
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.lego-img4 {
+    margin-left: 20px;
+}
+
+.lego-title {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #DEDEDE;
+    margin-top: 200px;
+}
+
+#work {
+    background: #000;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#latte {
+    background: #000000;
+}
+
+.latte h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #DEDEDE;
+    padding-top: 200px;
+
+
+}
+
+.latte-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.latte-img1 {
+    margin-right: 30px;
+}
+
+.latte-img2 {
+    margin-right: 30px;
+}
+
+#teel {
+    background: #000;
+}
+.teel{
+    padding-top: 200px;
+}
+
+.teel h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #DEDEDE;
+    padding-top: 30px;
+
+}
+
+.teel p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #959595;
+    padding-top: 30px;
+}
+.teel-btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.teel-btn {
+    width: 400px;
+    height: 64px;
+    background: #9D9D9D;
+    color: #DEDEDE;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    margin-bottom: 100px;
+}
+.teel-btn:hover {
+    transform: scale(1.1);
+}
